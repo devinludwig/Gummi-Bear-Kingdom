@@ -6,6 +6,6 @@
   <%= f.label :origin, "Country of Origin" %>
   <%= f.text_field :origin, class: "form-control" %>
   <%= f.label :cost %>
-  <%= f.number_field :cost, class: "form-control", placeholder: number_to_currency(f.object.cost.to_f, delimiter: '', unit: ''), step: :any %>
+  <%= f.number_field :cost, class: "form-control", step: 0.01 %>
   <%= f.submit class: "btn btn-info" %>
 <% end %>
