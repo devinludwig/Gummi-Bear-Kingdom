@@ -1,0 +1,11 @@
+<%= render "layouts/errors", :object => @product %>
+
+<%= form_for @product do |f| %>
+  <%= f.label :name, "Product" %>
+  <%= f.text_field :name, class: "form-control" %>
+  <%= f.label :origin, "Country of Origin" %>
+  <%= f.text_field :origin, class: "form-control" %>
+  <%= f.label :cost %>
+  <%= f.number_field :cost, class: "form-control", placeholder: number_to_currency(f.object.cost.to_f, delimiter: '', unit: ''), step: :any %>
+  <%= f.submit class: "btn btn-info" %>
+<% end %>
