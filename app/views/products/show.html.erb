@@ -1,5 +1,6 @@
 <div class="well">
   <h1><%= @product.name + " from " + @product.origin %></h1>
+  <h3>$<%= @product.cost %></h3>
 
 
   <%= link_to "Edit Product", edit_product_path(@product), class: "btn btn-info" %>
