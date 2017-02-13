@@ -10,7 +10,7 @@
 
 * _In the Command Line, run:_
 ```
-git clone https://github.com/weitzwoman/fan-site
+git clone https://github.com/devinludwig/Gummi-Bear-Kingdom
 cd gummi_bear_kingdom
 bundle install
 postgres
