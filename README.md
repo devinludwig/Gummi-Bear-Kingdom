@@ -1,12 +1,14 @@
 # _Gummy Bear Kingdom_
 
-#### _A web application for keeping track of gummy bear products for Gummy Bear Kingdom_
+#### _A web application for keeping track of gummy bear products for Gummy Bear Kingdom. View it at https://fierce-escarpment-70848.herokuapp.com/_
 
 #### By _**Devin Ludwig**_
 
 ## Specifications
 
 #### 1. User can add, edit, and delete products, with name, cost, and origin.
+
+## To Run:
 
 * _In the Command Line, run:_
 ```
